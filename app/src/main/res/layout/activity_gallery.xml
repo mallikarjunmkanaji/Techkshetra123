@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/customtool"
+        android:id="@+id/gal_tool">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/recep_img"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/gal_tool"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/reception" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/recep_img"
+        android:layout_gravity="center"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Reception" />
+
+    <ImageView
+        android:id="@+id/conf_img"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_alignBottom="@+id/recep_img"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/conference" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/conf_img"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Conference room" />
+
+    <ImageView
+        android:id="@+id/disc_img"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/recep_img"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/discussion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/disc_img"
+        android:layout_marginBottom="190dp"
+        android:layout_marginStart="42dp"
+        android:gravity="center"
+        android:text="Discussion room" />
+
+    <ImageView
+        android:id="@+id/work_img"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/conf_img"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/workarea1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/work_img"
+        android:layout_marginBottom="190dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:text="Work area" />
+
+    <ImageView
+        android:id="@+id/work2_img"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/work2" />
+
+    <TextView
+        android:id="@+id/tv_work2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Work area" />
+
+    <ImageView
+        android:id="@+id/work3_img"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignStart="@+id/conf_img"
+        android:layout_alignTop="@+id/work2_img"
+        android:src="@drawable/work3" />
+
+    <TextView
+        android:id="@+id/tv_work3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/work_img"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="45dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_below="@+id/work3_img"
+        android:text="Work area" />
+
+</RelativeLayout>

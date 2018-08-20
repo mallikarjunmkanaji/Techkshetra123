@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techkshetrainfo.techkshetrainfo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".KshikshaActivity" />
+        <activity android:name=".IeeeActivity" />
+        <activity android:name=".InternshipActivity" />
+        <activity android:name=".WddActivity" />
+        <activity android:name=".DigitalMarketActivity" />
+        <activity android:name=".DomainActivity" />
+        <activity android:name=".MadActivity" />
+        <activity android:name=".SoftwareDevelopActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".QuicklinksActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".WhyUsActivity" />
+        <activity android:name=".PrivacyPolicyActivity" />
+        <activity android:name=".SupportUsActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".KparikshaActivity" />
+        <activity android:name=".OnparikshaActivity" />
+        <activity android:name=".EmagazineActivity" />
+        <activity android:name=".KshikshaherActivity" />
+        <activity android:name=".EwasteActivity" />
+        <activity android:name=".ErpActivity" />
+        <activity android:name=".ComplaintmanActivity" />
+        <activity android:name=".WaterdistributionActivity" />
+        <activity android:name=".TrainingerpActivity" />
+
+    </application>
+
+</manifest>

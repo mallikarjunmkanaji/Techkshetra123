@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DigitalMarketActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/customtool"
+        android:id="@+id/digital_tool">
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digital Marketing services include:"
+        android:gravity="center"
+        android:background="@drawable/panelgradient"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="News Letter"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Search Engine Optimization (SEO)"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Social Media Marketing"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Bulk SMS"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        android:text="Digital marketing is taking over traditional marketing channels is the ability of Internet marketing tools to interact with targeted audiences in real time. Engagement in any form is what your customers expect to receive when interacting with your brand or business.Get the service of digital marketing with any of the following service."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/greenblue">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Want to grow your business with us by Digital Marketing."/>
+
+        <Button
+            android:id="@+id/digi_contact_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/contact_btn_grdnt"/>
+    </LinearLayout>
+</LinearLayout>

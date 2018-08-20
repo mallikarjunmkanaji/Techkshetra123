@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Techkshetrainfo</string>
+    <string name="title_activity_dashboard">Techkshetra info</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TechKshetra info solutions</string>
+    <string name="nav_header_subtitle">info@techkshetrainfo.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="compaddress"><u>Techkshetra info solutions pvt.ltd.</u>\n #1, 2nd Floor, 24th Main Road,
+8th cross, Sudarsanamma Arcade,
+JP Nagar 2nd phase, Bangalore-560078 </string>
+    <string name="contactthought">We don\'t end here Our list of web &amp; app Design and Developments solutions is broad and extensive. To meet your customised web &amp; app development needs, Contact Us. Our representative will get back to you shortly.</string>
+    <string name="short_about"> "       We work in areas as diverse as software development, mobile app development, ERP Solutions,SEO, social media marketing and digital marketing. TechKshetra Info Solutions Pvt. Ltd is an ISO 9001–2015 certified Software development firm with Corporate Office in Bangalore and registered office at KEONICS IT Park Kalaburagi. Techkshetra Info Solutions Pvt.Ltd is an software development company providing IT services and solutions focusing on delivering beautiful, scalable and high-quality products and apps globally.TechKshetra Info Solutions Pvt. Ltd. provides the most effective in depth business and market analysis for professional businesses. The strategies are resourceful and efficient for small and large businesses alike."</string>
+
+
+    <string name="career_spinner_title">Choose an area of interest</string>
+
+    <string name="company_subtitle">The best way to have a good idea is to have a lot of ideas</string>
+    <string name="php_desc"> We\'re looking for a Young talented, innovative, smart, passionate PHP developer to join a fantastic, highly motivated team. We want a developer who enjoys building insanely great &amp; world-class products.</string>
+    <string name="mba_desc"> We\'re looking for a Young talented, innovative, smart, passionate MBA in Marketing to join a fantastic, highly motivated team.</string>
+    <string name="profile_it_one">-> Must have Good knowledge in HTML/HTML 5, CSS/CSS3 , Javascript &amp; Jquery, MYSQL, Core PHP and Any MVC Framework. </string>
+    <string name="profile_it_two">-> Must be willing to learn and explore new things in   Web Development. </string>
+    <string name="profile__it_three">-> Must be flexible and a team player. </string>
+    <string name="profile_it_four">-> Good Attitude &amp; Good Communication skills. </string>
+    <string name="profile_it_five">-> Excellent coding and problem solving skills.</string>
+
+    <string name="profile_mb_one">-> Applicant must enjoy working in a fast-paced environment and be able to thrive under pressure</string>
+    <string name="profile_mb_two">-> Should posses sound knowledge about the local market and local language</string>
+    <string name="sd_content">TechKshetra Info Solutions Pvt. Ltd. employs the latest innovations and technologies to provide the best business services in the industry. Our business development teams work with businesses in all industries to launch prosperously and get ahead of the competition.We offer full-cycle development services for web, mobile and desktop. Whether you are a start-up or an established business, we will be happy to assist you at any and every stage of the software development life cycle: from conceptualization, business analysis and prototyping to the development and deployment of a complete solution.</string>
+
+    <string name="internship_desc">Internships offer you the chance to test your skills in real-time situations, explore your career options and gain an insight into an organization or career path.
+
+At the core of the idea is the belief that internships, if managed well, can make a positive difference to the student, to the employer, and to the society at large. Hence, the ad-hoc culture surrounding internships should and would change. TechKshetra Info Solutions Pvt.Ltd aims to be the driver of this change. We are transforming the lives of millions of college students, one meaningful internship at a time. Join us in our quest and bring a fresh perspective and new ideas to your workforce.</string>
+    <string name="dom_content">A web hosting service is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. There are various types of web hosting services available to host your website. Before signing up for web hosting services, it is important to understand what kind of service your website needs, the kind of server you or your business needs, your budget, and what type of services the web host offers.</string>
+</resources>

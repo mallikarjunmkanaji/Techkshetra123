@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IeeeActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ieee_tool"
+        android:theme="@style/customtool">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="2dp"
+        android:background="@color/greenblue">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginStart="5dp"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic"
+            android:text="Want to build as an IT professional with us."/>
+<Button
+    android:id="@+id/ieee_cnt_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Contact Us"
+    android:padding="5dp"
+    android:textStyle="bold|italic"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="5dp"
+    android:background="@drawable/contact_btn_grdnt"
+    android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="TechKshetra Info Solutions Pvt. Ltd. provide very good support and guidance for IEEE projects on various domains like: Networking, Network Security, Cloud Computing, Image Processing, Application Projects, Real Time Projects, Web services, Mobile Computing, Data mining, Software Engineering, E- Commerce and etc."/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/royal4"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:drawablePadding="5dp"
+        android:text="Providing high quality training at affordable fees is our core value. All our trainers are working IT professionals with rich experience."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:drawablePadding="5dp"
+        android:text="We work with our students in developing the right skills they need to build their career in present competitive environment."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:drawablePadding="5dp"
+        android:text="We have flexible batch times to suit the timings of graduating students and working professionals."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:drawablePadding="5dp"
+        android:text="Offers Final Year Project and software training courses starting from beginner level to advanced levels"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:drawablePadding="5dp"
+        android:text="Providing high quality training at affordable fees is our core value."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:drawablePadding="5dp"
+        android:text="All our trainers are working IT professionals with rich experience."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet_pin"
+        android:drawablePadding="5dp"
+        android:text="We work with our students in developing the right skills they need to build their career in present competitive environment."/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

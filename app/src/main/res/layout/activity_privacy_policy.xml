@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrivacyPolicyActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/privacy_tool"
+        android:theme="@style/customtool">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Information Sharing"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/toolgradient"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:text="Techkshetra Info Solutions Pvt.Ltd does not share or distribute any information or documents about individual users with any third party, except to comply with applicable laws or valid legal processes, or to protect the personal safety of our users or the public."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Data Safety and Protection"
+        android:textStyle="bold"
+        android:background="@drawable/toolgradient"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Our app has advanced industry-standard security measures to prevent data loss, misuse, or alteration. Most Techkshetra Info Solutions Pvt.Ltd personnel cannot access your personal information. This data is only available to Techkshetra Info Solutions Pvt.Ltd managers in charge of customer communications."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Changes"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/toolgradient"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Techkshetra Info Solutions Pvt.Ltd reserves the right to change, alter, or update this Privacy Policy at any time. We encourage you to review this page periodically for possible updates."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/toolgradient"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Techkshetra Info Solutions Pvt.Ltd welcomes your comments and questions on this statement. Please do not hesitate to contact us via e-mail at support@techkshetrainfo.com."/>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WddActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/customtool"
+        android:id="@+id/wdd_tool">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create clean, modern and conversion-friendly websites"
+        android:background="@drawable/toolgradient"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="TechKshetra Info Solutions Pvt. Ltd. offers clients the widest spectrum of services on Web Designing and Maintenance. We have the talented command of the professionals, use the most advanced technologies and use the individual approach to problems of each client. Whatever your budget, we can create cost effective packages for successful presentation of your company in the Internet."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We Develop"
+        android:background="@drawable/toolgradient"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.github.florent37.expansionpanel.viewgroup.ExpansionsViewGroupLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <include layout="@layout/wdd_responsive_panel"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCC"/>
+                <include layout="@layout/wdd_cms_panel"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCC"/>
+                <include layout="@layout/wdd_qlty_panel"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCC"/>
+                <include layout="@layout/wdd_usable_panel"/>
+
+            </com.github.florent37.expansionpanel.viewgroup.ExpansionsViewGroupLinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technology Expertise in Web Development"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:background="@drawable/toolgradient"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="HTML5"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="15dp"
+                android:drawableLeft="@drawable/bullet_pin"
+                android:drawablePadding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="CSS3"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="15dp"
+                android:drawableLeft="@drawable/bullet_pin"
+                android:drawablePadding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="JavaScript"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="15dp"
+                android:drawableLeft="@drawable/bullet_pin"
+                android:drawablePadding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="BootStrap"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="15dp"
+                android:drawableLeft="@drawable/bullet_pin"
+                android:drawablePadding="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

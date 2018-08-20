@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/feedback_back"
+    tools:context=".FeedbackActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/feednote"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Give Us Feedback"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:hint="Your Name"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_textbox"/>
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:hint="Your Email"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_textbox"/>
+    <EditText
+        android:id="@+id/msg_et"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:hint="Your Message"
+        android:layout_marginTop="5dp"
+        android:inputType="textMultiLine"
+        android:gravity="center"
+        android:background="@drawable/edit_textbox"/>
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button_gradient"
+        android:text="Send"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
